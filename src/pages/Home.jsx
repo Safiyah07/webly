@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import HomePage from "../components/Home";
 import Projects from "../components/Projects";
 import ChooseUs from "../components/ChooseUs";
+import Marqueee from "../shared/Marquee";
 
 function Home() {
 	useEffect(() => {
@@ -16,6 +17,7 @@ function Home() {
 			<HomePage />
 			<ChooseUs />
 			<Projects />
+			<Marqueee />
 		</main>
 	);
 }

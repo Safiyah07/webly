@@ -19,7 +19,7 @@ function ChooseUs() {
 					</span>
 				</h1>
 				<p className="text-center">
-					We work hard to bring in quality leads.
+					We work hard to bring in quality leads.{" "}
 					<br className="hidden sm:block" />
 					Here’s what sets us apart:
 				</p>
