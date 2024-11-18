@@ -72,7 +72,7 @@ function ChooseUs() {
 				</div>
 				{/* sm screen */}
 				<div className="flex-col w-[88svw] text-center bg-chooseFade rounded-xl hidden gap-3 p-5 md:flex sm:flex choose-table">
-					<p>Fast Suppost Response</p>
+					<p>Fast Support Response</p>
 					<p>Within 24 hours ⚡</p>
 					<p>Turnaround Time</p>
 					<p>10-14 Days 📅</p>
