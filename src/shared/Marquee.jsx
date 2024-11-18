@@ -15,7 +15,7 @@ function Marqueee() {
 				// }}
 			>
 				<div className="flex items-center gap-2 py-5 font-medium uppercase md:py-3 mx-7">
-					<h1 className="lg:text-[70px] max-md:text-[70px] md:text-[50px] sm:text-[40px] leading-[150%]">
+					<h1 className="lg:text-[50px] max-md:text-[50px] md:text-[50px] sm:text-[40px] leading-[150%]">
 						Get in touch.
 					</h1>
 					<Button>
