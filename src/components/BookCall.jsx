@@ -4,7 +4,10 @@ import Button from "../shared/Button";
 
 function BookCall() {
 	return (
-		<section className="flex flex-col self-center bg-chooseFade w-[80svw] sm:w-[88svw] rounded-xl py-10 relative sm:px-5">
+		<section
+			id="book"
+			className="flex flex-col self-center bg-chooseFade w-[80svw] sm:w-[88svw] rounded-xl py-10 relative sm:px-5"
+		>
 			{/* <img src={Safiyah} alt="" className="absolute object-cover w-32 h-32 rounded-full -top-10 -right-5" /> */}
 			<p className="pb-4 text-sm text-center sm:text-xs text-white/50">
 				Let&apos;s get started

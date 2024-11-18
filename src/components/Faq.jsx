@@ -43,7 +43,7 @@ function Faq() {
 	};
 
 	return (
-		<section>
+		<section id="faq">
 			<div className="flex flex-col gap-7">
 				<h1 className="leading-tight text-[50px] md:text-[40px] sm:text-[30px] text-center mb-10 sm:mb-5">
 					<span className="">Frequently asked </span>

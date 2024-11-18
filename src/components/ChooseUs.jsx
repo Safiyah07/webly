@@ -3,7 +3,10 @@ import Logo from "/webly-logo.png";
 
 function ChooseUs() {
 	return (
-		<section className="flex flex-col items-center justify-center w-full gap-12 sm:gap-5">
+		<section
+			id="choose"
+			className="flex flex-col items-center justify-center w-full gap-12 sm:gap-5"
+		>
 			<div className="flex flex-col gap-7">
 				<h1 className="leading-tight text-[50px] md:text-[40px] sm:text-[30px] text-center">
 					<span className="">Why </span>
