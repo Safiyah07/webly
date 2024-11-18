@@ -5,13 +5,9 @@ import {
 	Outlet,
 	RouterProvider,
 } from "react-router-dom";
-import { ThemeProvider } from "./context/ThemeContext";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-// import Projects from "./pages/Projects";
-import About from "./pages/About";
-import ProjectDisplay from "./pages/ProjectDisplay";
 
 function App() {
 	const router = createBrowserRouter(
@@ -24,28 +20,11 @@ function App() {
 					element={<Home />}
 					index
 				/>
-				{/* <Route
-					path="/projects"
-					element={<Projects />}
-				/> */}
-				<Route
-					path="/about"
-					element={<About />}
-				/>
-				{/* Dynamic route below */}
-				<Route
-					path="/project/:name"
-					element={<ProjectDisplay />}
-				/>
 			</Route>
 		)
 	);
 
-	return (
-		<ThemeProvider>
-			<RouterProvider router={router} />
-		</ThemeProvider>
-	);
+	return <RouterProvider router={router} />;
 }
 
 export const Root = () => {
