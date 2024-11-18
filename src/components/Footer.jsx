@@ -8,13 +8,13 @@ import {
 
 function Footer() {
 	return (
-		<section className="pt-20">
+		<section className="pt-20 sm:pt-10">
 			<div className="flex flex-col items-center justify-center">
-				<a href="">
+				<a href="#top">
 					<img
 						src={Logo}
-						alt=""
-						className="w-60"
+						alt="webly-logo"
+						className="w-60 sm:w-48"
 					/>
 				</a>
 

@@ -9,7 +9,7 @@ function BookCall() {
 			<p className="pb-4 text-sm text-center sm:text-xs text-white/50">
 				Let&apos;s get started
 			</p>
-			<h1 className="text-[40px] md:text-[40px] sm:text-[30px] text-center leading-[2.7rem]">
+			<h1 className="text-[40px] md:text-[40px] sm:text-[25px] text-center leading-[2.7rem]">
 				Book a discovery call
 			</h1>
 			<p className="mt-3 text-center">
@@ -17,7 +17,9 @@ function BookCall() {
 			</p>
 			<Button className="m-auto w-fit mt-7">
 				<a
-					href="mailto:safiyahmasud@gmail.com"
+					href="https://calendly.com/safiyahmasud/website-intro-call-with-safiyah"
+					target="_blank"
+					rel="noopener noreferrer"
 					className="flex items-center justify-center gap-2 w-fit"
 				>
 					<IoCalendarOutline /> Book a Call

@@ -15,15 +15,15 @@ function Header() {
 	const nav = [
 		{
 			name: "home",
-			link: "",
+			link: "#top",
 		},
 		{
 			name: "services",
-			link: "ss",
+			link: "#services",
 		},
 		{
-			name: "our projects",
-			link: "pp",
+			name: "projects",
+			link: "#projects",
 		},
 	];
 
@@ -36,12 +36,14 @@ function Header() {
 	};
 
 	return (
-		<>
+		<section id="top">
 			<div className="py-3 text-center bg-blueNavBg/10 sm:text-xs">
 				✨ We’re now taking new projects, book an intro call today! 📞
 			</div>
 
-			<section className={`pt-7 pb-16 px-20 m-auto md:px-5 sm:px-5 wid h-14`}>
+			<section
+				className={`pt-7 pb-16 px-20 m-auto md:px-5 sm:px-5 sm:pt-4 sm:pb-12 wid h-14`}
+			>
 				<div className="w-full h-0">
 					<div className="flex items-center justify-between">
 						<Link
@@ -50,27 +52,27 @@ function Header() {
 						>
 							<img
 								src={Logo}
-								alt=""
-								className="h-full w-36"
+								alt="webly-logo"
+								className="h-full w-36 sm:w-28"
 							/>
 						</Link>
 						{/* Desktop menu */}
 						<div className="relative flex items-center w-auto h-full gap-10 text-base md:hidden sm:hidden">
 							{nav.map((item, id) => (
-								<Link
+								<a
 									key={id}
-									to={`/${item.link}`}
-									className={`${
-										pathMatchRoute(`/${item.link}`) && " font-medium"
-									} capitalize hover:font-medium transition-all ease-in-out duration-300`}
+									href={`/${item.link}`}
+									className={` capitalize hover:font-medium transition-all ease-in-out duration-300`}
 								>
 									{item.name}
-								</Link>
+								</a>
 							))}
 
 							<Button>
 								<a
-									href="mailto:safiyahmasud@gmail.com"
+									href="https://calendly.com/safiyahmasud/website-intro-call-with-safiyah"
+									target="_blank"
+									rel="noopener noreferrer"
 									className="flex items-center justify-center gap-2"
 								>
 									<IoCalendarOutline /> Book a Call
@@ -84,7 +86,7 @@ function Header() {
 							onClick={menuDisplay}
 							className="font-normal cursor-pointer lg:hidden max-md:hidden"
 						>
-							{showMenu ? <Hamburger /> : <Hamburger />}
+							{showMenu ? <Hamburger size={23} /> : <Hamburger size={23} />}
 						</div>
 					</div>
 
@@ -109,7 +111,9 @@ function Header() {
 
 						<Button>
 							<a
-								href="mailto:safiyahmasud@gmail.com"
+								href="https://calendly.com/safiyahmasud/website-intro-call-with-safiyah"
+								target="_blank"
+								rel="noopener noreferrer"
 								className="flex items-center justify-center gap-2"
 							>
 								<IoCalendarOutline /> Book a Call
@@ -118,7 +122,7 @@ function Header() {
 					</div>
 				</div>
 			</section>
-		</>
+		</section>
 	);
 }
 

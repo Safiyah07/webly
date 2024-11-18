@@ -13,7 +13,7 @@ function ChooseUs() {
 							<img
 								src={Stroke}
 								alt=""
-								className="w-[250px] md:w-[210px] sm:w-[160px]"
+								className="w-[250px] md:w-[210px] sm:w-[150px]"
 							/>
 						</span>
 					</span>

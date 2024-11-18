@@ -6,9 +6,9 @@ function Marqueee() {
 	return (
 		<section className="bg-chooseFade">
 			<Marquee
-				speed={100}
+				speed={80}
 				autoFill={true}
-				pauseOnHover={true}
+				pauseOnHover={false}
 				gradientColor={"#f7f3f2"}
 				// style={{
 				// 	animationDuration: "8s",
@@ -16,11 +16,13 @@ function Marqueee() {
 			>
 				<div className="flex items-center gap-2 py-5 font-medium uppercase md:py-3 mx-7">
 					<h1 className="lg:text-[50px] max-md:text-[50px] md:text-[50px] sm:text-[40px] leading-[150%]">
-						Get in touch.
+						Shall we begin?
 					</h1>
 					<Button>
 						<a
-							href="mailto:safiyahmasud@gmail.com"
+							href="https://calendly.com/safiyahmasud/website-intro-call-with-safiyah"
+							target="_blank"
+							rel="noopener noreferrer"
 							className="flex items-center justify-center gap-2"
 						>
 							<IoCalendarOutline /> Book a Call
@@ -32,4 +34,4 @@ function Marqueee() {
 	);
 }
 
-export default Marqueee
+export default Marqueee;

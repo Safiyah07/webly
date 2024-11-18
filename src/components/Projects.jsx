@@ -19,7 +19,7 @@ function Projects() {
 							<img
 								src={Stroke}
 								alt=""
-								className="w-[290px] md:w-[250px] sm:w-[190px]"
+								className="w-[290px] md:w-[250px] sm:w-[180px]"
 							/>
 						</span>
 					</span>

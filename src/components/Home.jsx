@@ -54,7 +54,7 @@ function Home() {
 									<img
 										src={Stroke}
 										alt=""
-										className="w-[370px] md:w-[300px] sm:w-[190px]"
+										className="w-[370px] md:w-[300px] sm:w-[187px]"
 									/>
 								</span>
 							</span>
@@ -71,7 +71,9 @@ function Home() {
 					</ul>
 					<Button>
 						<a
-							href="mailto:safiyahmasud@gmail.com"
+							href="https://calendly.com/safiyahmasud/website-intro-call-with-safiyah"
+							target="_blank"
+							rel="noopener noreferrer"
 							className="flex items-center justify-center gap-2"
 						>
 							<IoCalendarOutline /> Book a Call
