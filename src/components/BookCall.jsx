@@ -1,58 +1,41 @@
-import { IoCalendarOutline } from "react-icons/io5"
+import { IoCalendarOutline } from "react-icons/io5";
 import Safiyah from "/safiyah.jpg";
-import Button from "../shared/Button"
-
+import Button from "../shared/Button";
 
 function BookCall() {
-  return (
-    <section className='flex flex-col self-center bg-chooseFade w-[80svw] sm:w-[88svw] rounded-xl py-10 relative sm:px-5'>
-      {/* <img src={Safiyah} alt="" className="absolute object-cover w-32 h-32 rounded-full -top-10 -right-5" /> */}
-      <p className="pb-4 text-sm text-center sm:text-xs text-white/50">
+	return (
+		<section className="flex flex-col self-center bg-chooseFade w-[80svw] sm:w-[88svw] rounded-xl py-10 relative sm:px-5">
+			{/* <img src={Safiyah} alt="" className="absolute object-cover w-32 h-32 rounded-full -top-10 -right-5" /> */}
+			<p className="pb-4 text-sm text-center sm:text-xs text-white/50">
 				Let&apos;s get started
 			</p>
-      <h1 className="text-[40px] md:text-[40px] sm:text-[30px] text-center leading-[2.7rem]">Book a discovery call</h1>
-      <p className="mt-3 text-center">
-      Just a 15-minute no-pressure call to see if we are a good fit!
+			<h1 className="text-[40px] md:text-[40px] sm:text-[30px] text-center leading-[2.7rem]">
+				Book a discovery call
+			</h1>
+			<p className="mt-3 text-center">
+				Just a 15-minute no-pressure call to see if we are a good fit!
 			</p>
-      <Button className="m-auto w-fit mt-7">
-						<a
-							href="mailto:safiyahmasud@gmail.com"
-							className="flex items-center justify-center gap-2 w-fit"
-						>
-							<IoCalendarOutline /> Book a Call
-						</a>
-					</Button>
+			<Button className="m-auto w-fit mt-7">
+				<a
+					href="mailto:safiyahmasud@gmail.com"
+					className="flex items-center justify-center gap-2 w-fit"
+				>
+					<IoCalendarOutline /> Book a Call
+				</a>
+			</Button>
 
-          <div className="w-4/5 m-auto my-8 border-t border-gray-200 sm:w-full"></div>
-          <div className="flex flex-col items-center">
-            <img src={Safiyah} alt="CEO Image"
-         className="object-cover mb-4 rounded-full shadow-md h-28 w-28" />
-    <p className="font-semibold">With Safiyah</p>
-    <p className="text-sm sm:text-xs text-white/50">Owner, Webly</p>
-  </div>
-    </section>
-//     <section className="px-6 py-16 text-center bg-gray-50">
-  
-//   <h2 className="mb-4 text-3xl font-bold">Book a Discovery Call</h2>
-//   <p className="mb-6 text-gray-700">
-//     We work hard to bring in quality leads.
-//   </p>
-//   <a href="#"
-//      className="px-6 py-3 font-medium text-white transition bg-blue-600 rounded-lg shadow-md hover:bg-blue-700">
-//     Book a Call
-//   </a>
-
-//   <div className="my-8 border-t border-gray-200"></div>
-
-//   <div className="flex flex-col items-center">
-//     <img src={Safiyah} alt="CEO Image"
-//          className="object-cover w-24 h-24 mb-4 rounded-full shadow-md" />
-//     <p className="font-semibold">John Doe</p>
-//     <p className="text-sm text-gray-500">(CEO, Company Name)</p>
-//   </div>
-// </section>
-
-  )
+			<div className="w-4/5 m-auto my-8 border-t border-gray-200 sm:w-full"></div>
+			<div className="flex flex-col items-center">
+				<img
+					src={Safiyah}
+					alt="CEO Image"
+					className="object-cover mb-4 rounded-full shadow-md h-28 w-28"
+				/>
+				<p className="font-semibold">With Safiyah</p>
+				<p className="text-sm sm:text-xs text-white/50">Owner, Webly</p>
+			</div>
+		</section>
+	);
 }
 
-export default BookCall
+export default BookCall;

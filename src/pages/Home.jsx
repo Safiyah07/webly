@@ -4,6 +4,7 @@ import Projects from "../components/Projects";
 import ChooseUs from "../components/ChooseUs";
 import Marqueee from "../shared/Marquee";
 import BookCall from "../components/BookCall";
+import Faq from './../components/Faq';
 
 function Home() {
 	useEffect(() => {
@@ -19,6 +20,7 @@ function Home() {
 			<ChooseUs />
 			<Projects />
 			<BookCall />
+			<Faq />
 			<Marqueee />
 		</main>
 	);
