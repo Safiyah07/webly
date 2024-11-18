@@ -9,15 +9,15 @@ function Projects() {
 	return (
 		<section id="projects" className="flex flex-col items-center justify-center w-full gap-12 sm:gap-5">
 			<div className="flex flex-col gap-7">
-				<h1 className="text-textFade leading-tight text-[50px] md:text-[40px] sm:text-[30px] text-center">
+				<h1 className="leading-tight text-[50px] md:text-[40px] sm:text-[30px] text-center">
 					<span className="">Our </span>
 					<span className="">
-						<span className="inline-block text-white">
-							Recent Work
+						<span className="inline-block text-textFade">
+							recent work
 							<img
 								src={Stroke}
 								alt=""
-								className="w-[315px] md:w-[250px] sm:w-[190px]"
+								className="w-[290px] md:w-[250px] sm:w-[190px]"
 							/>
 						</span>
 					</span>

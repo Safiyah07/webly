@@ -3,6 +3,7 @@ import HomePage from "../components/Home";
 import Projects from "../components/Projects";
 import ChooseUs from "../components/ChooseUs";
 import Marqueee from "../shared/Marquee";
+import BookCall from "../components/BookCall";
 
 function Home() {
 	useEffect(() => {
@@ -17,6 +18,7 @@ function Home() {
 			<HomePage />
 			<ChooseUs />
 			<Projects />
+			<BookCall />
 			<Marqueee />
 		</main>
 	);

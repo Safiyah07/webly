@@ -4,7 +4,7 @@ import { IoCalendarOutline } from "react-icons/io5";
 
 function Marqueee() {
 	return (
-		<section className="bg-menu-bg">
+		<section className="bg-chooseFade">
 			<Marquee
 				speed={100}
 				autoFill={true}
@@ -14,8 +14,8 @@ function Marqueee() {
 				// 	animationDuration: "8s",
 				// }}
 			>
-				<div className="flex items-center gap-2 py-5 font-medium uppercase md:py-3 mr-7">
-					<h1 className="lg:text-[80px] max-md:text-[50px] md:text-[80px] sm:text-[40px] leading-[150%]">
+				<div className="flex items-center gap-2 py-5 font-medium uppercase md:py-3 mx-7">
+					<h1 className="lg:text-[70px] max-md:text-[70px] md:text-[50px] sm:text-[40px] leading-[150%]">
 						Get in touch.
 					</h1>
 					<Button>

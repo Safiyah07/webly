@@ -5,15 +5,15 @@ function ChooseUs() {
 	return (
 		<section className="flex flex-col items-center justify-center w-full gap-12 sm:gap-5">
 			<div className="flex flex-col gap-7">
-				<h1 className="text-textFade leading-tight text-[50px] md:text-[40px] sm:text-[30px] text-center">
+				<h1 className="leading-tight text-[50px] md:text-[40px] sm:text-[30px] text-center">
 					<span className="">Why </span>
 					<span className="">
-						<span className="inline-block text-white">
-							Choose Us
+						<span className="inline-block text-textFade">
+							choose us
 							<img
 								src={Stroke}
 								alt=""
-								className="w-[270px] md:w-[210px] sm:w-[160px]"
+								className="w-[250px] md:w-[210px] sm:w-[160px]"
 							/>
 						</span>
 					</span>

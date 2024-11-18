@@ -43,18 +43,18 @@ function Home() {
 				</p>
 				<div className="flex flex-col items-center gap-8">
 					<div className="leading-tight text-[50px] md:text-[40px] sm:text-[25px] text-center">
-						<h1 className="text-textFade">
+						<h1 className="">
 							<span className="hero">
 								Trusted websites that <br />
 							</span>
 							<span className="hero">
 								<span>converts</span>{" "}
-								<span className="inline-block text-white">
+								<span className="inline-block text-textFade">
 									leads to clients
 									<img
 										src={Stroke}
 										alt=""
-										className="w-[380px] md:w-[300px] sm:w-[190px]"
+										className="w-[370px] md:w-[300px] sm:w-[190px]"
 									/>
 								</span>
 							</span>
