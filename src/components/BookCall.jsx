@@ -8,13 +8,13 @@ function BookCall() {
 			id="book"
 			className="flex flex-col self-center bg-chooseFade w-[80svw] sm:w-[88svw] rounded-xl py-10 relative sm:px-5"
 		>
-			{/* <img src={Safiyah} alt="" className="absolute object-cover w-32 h-32 rounded-full -top-10 -right-5" /> */}
+			{/* <img src={Safiyah} alt="ceo image" className="absolute object-cover w-32 h-32 rounded-full -top-10 -right-5" /> */}
 			<p className="pb-4 text-sm text-center sm:text-xs text-white/50">
 				Let&apos;s get started
 			</p>
-			<h1 className="text-[40px] md:text-[40px] sm:text-[25px] text-center leading-[2.7rem]">
+			<h2 className="text-[40px] md:text-[40px] sm:text-[25px] text-center leading-[2.7rem]">
 				Book a discovery call
-			</h1>
+			</h2>
 			<p className="mt-3 text-center">
 				Just a 15-minute no-pressure call to see if we are a good fit!
 			</p>

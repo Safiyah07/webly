@@ -8,19 +8,19 @@ function ChooseUs() {
 			className="flex flex-col items-center justify-center w-full gap-12 sm:gap-5"
 		>
 			<div className="flex flex-col gap-7">
-				<h1 className="leading-tight text-[50px] md:text-[40px] sm:text-[30px] text-center">
+				<h2 className="leading-tight text-[50px] md:text-[40px] sm:text-[30px] text-center">
 					<span className="">Why </span>
 					<span className="">
 						<span className="inline-block text-textFade">
 							choose us
 							<img
 								src={Stroke}
-								alt=""
+								alt="emphasis stroke"
 								className="w-[250px] md:w-[210px] sm:w-[150px]"
 							/>
 						</span>
 					</span>
-				</h1>
+				</h2>
 				<p className="text-center">
 					We work hard to bring in quality leads.{" "}
 					<br className="hidden sm:block" />
@@ -46,7 +46,7 @@ function ChooseUs() {
 							<li className="text-2xl">
 								<img
 									src={Logo}
-									alt=""
+									alt="webly-logo"
 									className="h-full w-28"
 								/>
 							</li>

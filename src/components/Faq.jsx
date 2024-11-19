@@ -45,24 +45,19 @@ function Faq() {
 	return (
 		<section id="faq">
 			<div className="flex flex-col gap-7">
-				<h1 className="leading-tight text-[50px] md:text-[40px] sm:text-[30px] text-center mb-10 sm:mb-5">
+				<h2 className="leading-tight text-[50px] md:text-[40px] sm:text-[30px] text-center mb-10 sm:mb-5">
 					<span className="">Frequently asked </span>
 					<span className="">
 						<span className="inline-block text-textFade">
 							questions
 							<img
 								src={Stroke}
-								alt=""
+								alt="emphasis stroke"
 								className="w-[240px] md:w-[210px] sm:w-[140px]"
 							/>
 						</span>
 					</span>
-				</h1>
-				{/* <p className="pb-10 text-center">
-					We work hard to bring in quality leads.{" "}
-					<br className="hidden sm:block" />
-					Here’s what sets us apart:
-				</p> */}
+				</h2>
 			</div>
 			{faqs.map((faqq, index) => (
 				<div
@@ -74,7 +69,7 @@ function Faq() {
 						className="flex flex-col justify-between w-full px-10 py-5 mt-5 md:gap-5 sm:gap-5 sm:px-3 rounded-xl bg-chooseFade"
 					>
 						<div className="flex justify-between cursor-pointer">
-							<h2>{faqq.question}</h2>
+							<h3>{faqq.question}</h3>
 							<span>
 								{isOpen === index ? <IoChevronDown /> : <IoChevronUp />}
 							</span>

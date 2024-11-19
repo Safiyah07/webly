@@ -1,6 +1,6 @@
 import Stroke from "/stroke.svg";
 import Project1 from "/project1.jpg";
-import Project2 from "/project1.jpg";
+import Project2 from "/project2.1.jpg";
 import Project3 from "/project1.jpg";
 import Project4 from "/project1.jpg";
 
@@ -11,19 +11,19 @@ function Projects() {
 			className="flex flex-col items-center justify-center w-full gap-12 sm:gap-5"
 		>
 			<div className="flex flex-col gap-7">
-				<h1 className="leading-tight text-[50px] md:text-[40px] sm:text-[30px] text-center">
+				<h2 className="leading-tight text-[50px] md:text-[40px] sm:text-[30px] text-center">
 					<span className="">Our </span>
 					<span className="">
 						<span className="inline-block text-textFade">
 							recent work
 							<img
 								src={Stroke}
-								alt=""
+								alt="emphasis stroke"
 								className="w-[290px] md:w-[250px] sm:w-[180px]"
 							/>
 						</span>
 					</span>
-				</h1>
+				</h2>
 				<p className="text-center">
 					We work hard to bring in quality leads.{" "}
 					<br className="hidden sm:block" />
@@ -36,28 +36,28 @@ function Projects() {
 					<img
 						src={Project1}
 						className="border-4 rounded-xl border-blueNavBg/50"
-						alt=""
+						alt="First project preview"
 					/>
 				</div>
 				<div>
 					<img
 						src={Project2}
 						className="border-4 rounded-xl border-blueNavBg/50"
-						alt=""
+						alt="second project preview"
 					/>
 				</div>
 				<div>
 					<img
 						src={Project3}
 						className="border-4 rounded-xl border-blueNavBg/50"
-						alt=""
+						alt="third project preview"
 					/>
 				</div>
 				<div>
 					<img
 						src={Project4}
 						className="border-4 rounded-xl border-blueNavBg/50"
-						alt=""
+						alt="fourth project preview"
 					/>
 				</div>
 			</div>

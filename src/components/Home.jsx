@@ -38,9 +38,9 @@ function Home() {
 			className="flex flex-col items-center justify-center pt-10"
 		>
 			<div className="w-full md:pb-10 sm:pb-10">
-				<p className="pb-8 text-sm text-center uppercase sm:text-xs sm:pb-4">
+				<h4 className="pb-8 text-sm text-center uppercase sm:text-xs sm:pb-4">
 					For HVAC Companies
-				</p>
+				</h4>
 				<div className="flex flex-col items-center gap-8">
 					<div className="leading-tight text-[50px] md:text-[40px] sm:text-[25px] text-center">
 						<h1 className="">
@@ -53,7 +53,7 @@ function Home() {
 									leads to clients
 									<img
 										src={Stroke}
-										alt=""
+										alt="emphasis stroke"
 										className="w-[370px] md:w-[300px] sm:w-[187px]"
 									/>
 								</span>
@@ -84,7 +84,7 @@ function Home() {
 			<div className="w-[56%] max-md:w-2/3 pt-20 md:w-3/4 sm:w-[88%]">
 				<img
 					src={Project}
-					alt=""
+					alt="projects preview"
 					className="rounded-2xl"
 				/>
 			</div>

@@ -37,9 +37,9 @@ function Header() {
 
 	return (
 		<section id="top">
-			<div className="py-3 text-center bg-blueNavBg/10 sm:text-xs">
+			<h4 className="py-3 text-center bg-blueNavBg/10 sm:text-xs">
 				✨ We’re now taking new projects, book an intro call today! 📞
-			</div>
+			</h4>
 
 			<section
 				className={`pt-7 pb-16 px-20 m-auto md:px-5 sm:px-5 sm:pt-4 sm:pb-12 wid h-14`}
@@ -80,7 +80,6 @@ function Header() {
 							</Button>
 						</div>
 
-						{/* From here down is code for late, md/sm navigation and so on */}
 						{/* md and sm menu btn */}
 						<div
 							onClick={menuDisplay}
