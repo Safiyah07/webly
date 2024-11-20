@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Hamburger from "hamburger-react";
 import { IoCalendarOutline } from "react-icons/io5";
 import Button from "../shared/Button";
@@ -27,13 +27,13 @@ function Header() {
 		},
 	];
 
-	const location = useLocation();
+	// const location = useLocation();
 
-	const pathMatchRoute = (route) => {
-		if (route === location.pathname) {
-			return true;
-		}
-	};
+	// const pathMatchRoute = (route) => {
+	// 	if (route === location.pathname) {
+	// 		return true;
+	// 	}
+	// };
 
 	return (
 		<section id="top">
@@ -97,15 +97,13 @@ function Header() {
 						onClick={() => setShowMenu(true)}
 					>
 						{nav.map((item, id) => (
-							<Link
+							<a
 								key={id}
-								to={`/${item.link}`}
-								className={`${
-									pathMatchRoute(`/${item.link}`) && " font-semibold"
-								} capitalize hover:font-medium transition-all ease-in-out duration-300`}
+								href={`/${item.link}`}
+								className={` capitalize hover:font-medium transition-all ease-in-out duration-300`}
 							>
 								{item.name}
-							</Link>
+							</a>
 						))}
 
 						<Button>
