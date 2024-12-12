@@ -24,11 +24,11 @@ function Projects() {
 						</span>
 					</span>
 				</h2>
-				<p className="text-center">
+				{/* <p className="text-center">
 					We work hard to bring in quality leads.{" "}
 					<br className="hidden sm:block" />
 					Here’s what sets us apart:
-				</p>
+				</p> */}
 			</div>
 
 			<div className="grid grid-cols-2 gap-10 md:grid-cols-1 sm:grid-cols-1 w-4/5 md:w-[88svw] sm:w-[88svw]">
