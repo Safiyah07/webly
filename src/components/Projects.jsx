@@ -34,14 +34,14 @@ function Projects() {
 			<div className="grid grid-cols-2 gap-10 md:grid-cols-1 sm:grid-cols-1 w-4/5 md:w-[88svw] sm:w-[88svw]">
 				<div>
 					<img
-						src={Project1}
+						src={Project4}
 						className="border-4 rounded-xl border-blueNavBg/50"
 						alt="First project preview"
 					/>
 				</div>
 				<div>
 					<img
-						src={Project2}
+						src={Project1}
 						className="border-4 rounded-xl border-blueNavBg/50"
 						alt="second project preview"
 					/>
@@ -55,7 +55,7 @@ function Projects() {
 				</div>
 				<div>
 					<img
-						src={Project4}
+						src={Project2}
 						className="border-4 rounded-xl border-blueNavBg/50"
 						alt="fourth project preview"
 					/>
