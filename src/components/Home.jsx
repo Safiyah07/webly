@@ -8,7 +8,7 @@ import {
 	IoShieldCheckmarkOutline,
 } from "react-icons/io5";
 import Stroke from "/stroke.svg";
-import Project from "/project1.jpg";
+import Project from "/Project4.jpg";
 import Button from "./../shared/Button";
 
 function Home() {

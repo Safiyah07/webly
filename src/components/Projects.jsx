@@ -2,7 +2,7 @@ import Stroke from "/stroke.svg";
 import Project1 from "/project1.jpg";
 import Project2 from "/project2.1.jpg";
 import Project3 from "/project3.jpg";
-import Project4 from "/project1.jpg";
+import Project4 from "/project4.jpg";
 
 function Projects() {
 	return (
