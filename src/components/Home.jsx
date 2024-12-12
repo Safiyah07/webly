@@ -85,7 +85,7 @@ function Home() {
 				<img
 					src={Project}
 					alt="projects preview"
-					className="rounded-2xl"
+					className="border-4 rounded-xl border-blueNavBg/50"
 				/>
 			</div>
 		</section>
